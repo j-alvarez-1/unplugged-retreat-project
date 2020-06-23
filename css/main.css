@@ -101,20 +101,31 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 50%;
+    margin: 0;
+}
+header {
+  padding: 15px 0;
+}
+header h1 {
+  margin: 0;
+  width: 100%;
 }
 header .header-divider {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 60%;
 }
 header nav {
-
-
+    width: 100%;
 }
 header nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 header nav ul li {
     display: flex;
@@ -141,6 +152,10 @@ main section .features {
     justify-content: cneter;
     align-items: center;
     flex-flow: row wrap;
+    width: 50%;
+}
+main section .features p {
+  margin: 0;
 }
 main section .features .feature-items {
     display: flex;
@@ -152,6 +167,9 @@ main section .reviews {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
+main section .reviews h3 {
+  wdith: 80%;
 }
 /*----- ABOUT -----*/
 main .mission {
@@ -174,8 +192,15 @@ main .faq .content-wrapper {
     flex-flow: row wrap;
 }
 /*----- FOOTER STYLES -----*/
+footer .content-wrapper {
+  width: 100%;
+  margin: 50px 0;
+}
 footer .contact {
 
+}
+footer p {
+  margin: 0;
 }
 footer .social-icons {
     display: flex;
