@@ -397,7 +397,105 @@ footer .copyright {
 }
 @media only screen and (min-width: 1200px) {
   /*DESKTOP STYLES*/
-}
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 100px 0;
+  }
+  header .content-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  header {
+    padding: 33px 0;
+  }
+  header h1 {
+    width: 50%;
+  }
+  header .content-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul {
+    width: 100%;
+    justify-content: flex-end;
+    align-items:
+  }
+  .header-divider {
+
+  }
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 100%;
+    margin: 0;
+  }
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    flex-basis: 50%;
+  }
+  .features .features-items {
+    width: 100%;
+  }
+  .reviews article {
+    display: flex;
+    justify-content: center;
+  }
+  .reviews article div {
+    width: 49%;
+  }
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .contact {
+    margin-bottom: 0;
+  }
+  footer .copyright {
+    width: 100%;
+  }
+  .faq-content {
+    flex-basis: auto;
+  }
+  /*ABOUT PAGE*/
+  .mission-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .mission-content p {
+    width: 45%;
+  }
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  /*FAQ PAGE*/
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+  .faq-content {
+    flex-basis: 45%;
+  }
+  .faq h2 {
+    width: 100%;
 
 /* ==========================================================================
    Print styles.
