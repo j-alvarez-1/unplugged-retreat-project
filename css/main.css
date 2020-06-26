@@ -612,6 +612,10 @@ main aside {
     width: 30%;
   }
 
+.features i {
+  font-size: 3.75em;
+    margin-bottom: 40px;
+}
   .features h2 {
     width: 90%;
   }
