@@ -568,6 +568,22 @@ main aside {
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   /*FAQ PAGE*/
   .faq .content-wrapper {
     justify-content: space-between;
@@ -623,6 +639,21 @@ main aside {
     margin-bottom: 50%;
   }
 
+  .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   /*FAQ PAGE*/
   .faq-content {
     flex-basis: 50%;
