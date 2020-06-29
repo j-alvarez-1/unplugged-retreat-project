@@ -224,16 +224,16 @@ footer {
 footer p {
   margin: 0;
 }
-.content-wrapper {
+footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
 }
-.contact {
+footer .contact {
   margin-bottom: 50px;
 }
-.social-icons {
+footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .copyright {
@@ -256,7 +256,7 @@ footer p {
   font-weight: 500;
   line-height: 1.2;
 }
-main aside {
+aside {
     background-color: #527158;
     display: flex;
     justify-content: center;
@@ -491,7 +491,7 @@ main aside {
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-flow: row wrap;
   }
   aside .content-wrapper .form-description,
@@ -604,6 +604,7 @@ main aside {
     font-size: 3.75em;
     width: 60%;
   }
+
   aside .content-wrapper {
     justify-content: space-around;
   }
