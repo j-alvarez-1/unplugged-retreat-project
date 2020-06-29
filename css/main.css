@@ -206,16 +206,17 @@ header .header-divider {
 header nav {
     font-size: 1.125em;
     font-weight: 700;
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: row;
 }
 header nav ul {
     font-size: 1.125em;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
 }
 footer {
@@ -237,6 +238,7 @@ footer .social-icons {
   align-items: center;
 }
 .copyright {
+  color: white;
   margin: 20px 0;
 }
 /*----- MAIN STYLES -----*/
@@ -253,6 +255,7 @@ footer .social-icons {
 .hero-area h1 {
   font-size: 2.25em;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
+  color: white;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -283,7 +286,7 @@ aside {
   width: 63%;
   margin: 30px 0;
 }
-.features .feature-item-description {
+.feature-item-description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,8 +315,8 @@ aside {
     align-items: center;
     flex-flow: row wrap;
 }
-.content-section {
-  background-color: #2a423a;
+.contact-section {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,13 +342,14 @@ aside {
   left: 0;
 }
 /*----- FAQ -----*/
-.faq {
+.frequently-asked-questions {
     background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
+
 .faq .content-wrapper {
     display: flex;
     justify-content: center;
@@ -607,7 +611,9 @@ aside {
 
   aside .content-wrapper {
     justify-content: space-around;
+    flex-flow: column wrap;
   }
+
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
